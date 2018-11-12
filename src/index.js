@@ -1,16 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-
-class App extends React.Component {
-    render () {
-        return (
-            <div>
-                Zombies Fighters! Hyped!
-            </div>
-        )
-    }
-}
+import App from './App';
 
 ReactDOM.render(
     <App />,
